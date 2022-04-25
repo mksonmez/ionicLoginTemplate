@@ -1,0 +1,26 @@
+ion-content {
+    --ion-background-color: #EEC0C6;
+}
+ion-list {
+    transform: translateY(25vh);
+    background: transparent;
+    ion-list-header {
+        margin-bottom: 15vh;
+        letter-spacing: 3px;
+        ion-label {
+            font-weight: bold;
+            font-size: 3rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+        }
+    }
+    ion-button {
+        font-weight: bold;
+        text-transform: none;
+        margin: 3vh;
+    }
+    ion-text {
+        font-size: 0.9rem;
+        color: var(--ion-color-medium);
+    }
+}
